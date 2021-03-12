@@ -1088,7 +1088,7 @@
         schema:startDate  "1978-01-01T00:00:00Z"^^xsd:dateTime .
 
 <https://catalog.terradue.com/gep-epos/SatelliteObservations/Dataset/Lookup_Table_Radar2Ground_Coordinates/Distribution/LUT_radar2ground>
-        a                dcat:distribution , dcat:Distribution ;
+        a                dcat:Distribution , dcat:distribution ;
         dct:conformsTo   <https://catalog.terradue.com/gep-epos/SatelliteObservations/WebService/LOOKUP_TABLE_RADAR2GROUD_COORDINATES> ;
         dct:description  "Lookup table to convert radar coordinates in ground coordinates" ;
         dct:format       "http://publications.europa.eu/resource/authority/file-type/JSON"^^xsd:anyURI ;
