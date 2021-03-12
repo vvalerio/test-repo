@@ -229,7 +229,7 @@
         adms:schemeAgency  "DDSS-ID" .
 
 <a71921e2a4d758321eb0aa9e8a98a58d>
-        a                    hydra:mapping , hydra:IriTemplateMapping ;
+        a                    hydra:IriTemplateMapping , hydra:mapping ;
         rdfs:label           "To" ;
         rdfs:range           "xsd:dateTime" ;
         schema:defaultValue  "2039-01-01T00:00:00" ;
@@ -263,7 +263,7 @@
         hydra:supportedOperation  <https://catalog.terradue.com/gep-epos/SatelliteObservations/WebService/SPATIAL_COHERENCE/Operation/Search> .
 
 <1644660a544ef9b45c795d00de21c6fa>
-        a                       schema:address , schema:PostalAddress ;
+        a                       schema:PostalAddress , schema:address ;
         schema:addressCountry   "Italy" ;
         schema:addressLocality  "Milan" ;
         schema:postalCode       "20133" ;
@@ -321,7 +321,7 @@
         dcat:theme              <epos:InSAR> .
 
 <2f0523c7bff3feb001ab45e17e2959e2>
-        a                    hydra:mapping , hydra:IriTemplateMapping ;
+        a                    hydra:IriTemplateMapping , hydra:mapping ;
         rdfs:label           "Maximum Longitude" ;
         rdfs:range           "xsd:float" ;
         schema:defaultValue  "60.0" ;
@@ -347,7 +347,7 @@
         hydra:variable       "start" .
 
 <a5d99ca5d01e36d7e1362fecf0130ef0>
-        a                 dct:temporal , dct:PeriodOfTime ;
+        a                 dct:PeriodOfTime , dct:temporal ;
         schema:startDate  "1978-01-01T00:00:00Z"^^xsd:dateTime .
 
 <https://catalog.terradue.com/gep-epos/SatelliteObservations/Dataset/Unwrapped_Interferogram/Distribution/Unwrap_Interf>
@@ -409,7 +409,7 @@
         dcat:theme              <epos:InSAR> .
 
 <ac4a824275291ec5fa4db554d13ff56a>
-        a               hydra:mapping , hydra:IriTemplateMapping ;
+        a               hydra:IriTemplateMapping , hydra:mapping ;
         rdfs:label      "Product Name (insert the Product Name to find a specific product)" ;
         rdfs:range      "xsd:string" ;
         hydra:required  false ;
@@ -543,7 +543,7 @@
         adms:schemeAgency  "DDSS-ID" .
 
 <f1e2d66e8e1878fa64f18efde9095c16>
-        a                  adms:identifier , adms:Identifier ;
+        a                  adms:Identifier , adms:identifier ;
         skos:notation      "WP12-DDSS-007" ;
         adms:schemeAgency  "DDSS-ID" .
 
